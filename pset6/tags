@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+LimitRequestFieldSize	server.c	16;"	d	file:
+LimitRequestFields	server.c	15;"	d	file:
+LimitRequestLine	server.c	17;"	d	file:
+OCTETS	server.c	20;"	d	file:
+_GNU_SOURCE	server.c	9;"	d	file:
+_XOPEN_SOURCE	server.c	10;"	d	file:
+_XOPEN_SOURCE_EXTENDED	server.c	11;"	d	file:
+body	server.c	/^octet* body = NULL;$/;"	v
+cfd	server.c	/^int cfd = -1, sfd = -1;$/;"	v
+connected	server.c	/^bool connected(void)$/;"	f
+error	server.c	/^bool error(unsigned short code)$/;"	f
+file	server.c	/^FILE* file = NULL;$/;"	v
+handler	server.c	/^void handler(int signal)$/;"	f
+load	server.c	/^ssize_t load(void)$/;"	f
+lookup	server.c	/^const char* lookup(const char* extension)$/;"	f
+main	server.c	/^int main(int argc, char* argv[])$/;"	f
+octet	server.c	/^typedef char octet;$/;"	t	file:
+parse	server.c	/^ssize_t parse(void)$/;"	f
+request	server.c	/^octet* request = NULL;$/;"	v
+reset	server.c	/^void reset(void)$/;"	f
+root	server.c	/^char* root = NULL;$/;"	v
+sfd	server.c	/^int cfd = -1, sfd = -1;$/;"	v
+start	server.c	/^void start(short port, const char* path)$/;"	f
+stop	server.c	/^void stop(void)$/;"	f

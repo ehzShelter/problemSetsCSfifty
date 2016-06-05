@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC = clang$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -ggdb3 -O0 -std=c11 -Wall -Werror$/;"	m
+CS50_SPELLER	bench.c	13;"	d	file:
+CS50_TEXTS	bench.c	12;"	d	file:
+C_BLUE	bench.c	24;"	d	file:
+C_BOLD	bench.c	27;"	d	file:
+C_BWHITE	bench.c	28;"	d	file:
+C_CLEAR	bench.c	19;"	d	file:
+C_CS50	bench.c	30;"	d	file:
+C_CYAN	bench.c	23;"	d	file:
+C_GREEN	bench.c	21;"	d	file:
+C_RED	bench.c	25;"	d	file:
+C_RESET	bench.c	20;"	d	file:
+C_WHITE	bench.c	26;"	d	file:
+C_YELLOW	bench.c	22;"	d	file:
+C_YOURS	bench.c	31;"	d	file:
+DICTIONARY	speller.c	20;"	d	file:
+DICTIONARY_H	dictionary.h	11;"	d
+EXE	Makefile	/^EXE = speller$/;"	m
+HDRS	Makefile	/^HDRS = dictionary.h$/;"	m
+HT_SIZE	dictionary.c	13;"	d	file:
+LENGTH	dictionary.h	17;"	d
+LIBS	Makefile	/^LIBS = $/;"	m
+MAX_FILES	bench.c	16;"	d	file:
+OBJS	Makefile	/^OBJS = $(SRCS:.c=.o)$/;"	m
+SRCS	Makefile	/^SRCS = speller.c dictionary.c$/;"	m
+_XOPEN_SOURCE	bench.c	1;"	d	file:
+_XOPEN_SOURCE_EXTENDED	bench.c	2;"	d	file:
+calculate	speller.c	/^double calculate(const struct rusage* b, const struct rusage* a)$/;"	f
+calculate	speller.c	16;"	d	file:
+check	bench.c	/^    float check, cs50_check;$/;"	m	struct:__anon1	file:
+check	dictionary.c	/^bool check(const char* word)$/;"	f
+compare_format	bench.c	/^char* compare_format(float num1, float num2)$/;"	f
+counter	dictionary.c	/^int counter;$/;"	v
+create_record	bench.c	/^record* create_record()$/;"	f
+cs50_check	bench.c	/^    float check, cs50_check;$/;"	m	struct:__anon1	file:
+cs50_dictionary	bench.c	/^    int dictionary, cs50_dictionary;$/;"	m	struct:__anon1	file:
+cs50_load	bench.c	/^    float load, cs50_load;$/;"	m	struct:__anon1	file:
+cs50_misspelled	bench.c	/^    int misspelled, cs50_misspelled;$/;"	m	struct:__anon1	file:
+cs50_size	bench.c	/^    float size, cs50_size;$/;"	m	struct:__anon1	file:
+cs50_text	bench.c	/^    int text, cs50_text;$/;"	m	struct:__anon1	file:
+cs50_total	bench.c	/^    float total, cs50_total;$/;"	m	struct:__anon1	file:
+cs50_unload	bench.c	/^    float unload, cs50_unload;$/;"	m	struct:__anon1	file:
+delete_record	bench.c	/^void delete_record(record* mrecord)$/;"	f
+dictionary	bench.c	/^    int dictionary, cs50_dictionary;$/;"	m	struct:__anon1	file:
+dump_record	bench.c	/^void dump_record(record* mrecord)$/;"	f
+error_m	bench.c	/^void error_m(char* error, int errno)$/;"	f
+filename	bench.c	/^    char* filename;$/;"	m	struct:__anon1	file:
+getrusage	speller.c	17;"	d	file:
+hash	dictionary.c	/^static unsigned int hash(const char* word)$/;"	f	file:
+hashtable	dictionary.c	/^node* hashtable[HT_SIZE];$/;"	v
+load	bench.c	/^    float load, cs50_load;$/;"	m	struct:__anon1	file:
+load	dictionary.c	/^bool load(const char* dictionary)$/;"	f
+main	bench.c	/^int main(int argc, char* argv[])$/;"	f
+main	speller.c	/^int main(int argc, char* argv[])$/;"	f
+misspelled	bench.c	/^    int misspelled, cs50_misspelled;$/;"	m	struct:__anon1	file:
+next	dictionary.c	/^    struct node* next;$/;"	m	struct:node	typeref:struct:node::node	file:
+node	dictionary.c	/^node;$/;"	t	typeref:struct:node	file:
+node	dictionary.c	/^typedef struct node$/;"	s	file:
+path	bench.c	/^    char* path;$/;"	m	struct:__anon1	file:
+print_row	bench.c	/^void print_row(record* rec, int prec)$/;"	f
+record	bench.c	/^record;$/;"	t	typeref:struct:__anon1	file:
+run_benchmark	bench.c	/^void run_benchmark(record* mrecord)$/;"	f
+size	bench.c	/^    float size, cs50_size;$/;"	m	struct:__anon1	file:
+size	dictionary.c	/^unsigned int size(void)$/;"	f
+success	bench.c	/^    bool success;$/;"	m	struct:__anon1	file:
+text	bench.c	/^    int text, cs50_text;$/;"	m	struct:__anon1	file:
+total	bench.c	/^    float total, cs50_total;$/;"	m	struct:__anon1	file:
+unload	bench.c	/^    float unload, cs50_unload;$/;"	m	struct:__anon1	file:
+unload	dictionary.c	/^bool unload(void)$/;"	f
+word	dictionary.c	/^    char* word;$/;"	m	struct:node	file:
+word	dictionary.c	/^char word[LENGTH + 1];$/;"	v
